@@ -10,49 +10,50 @@
 <body>
    <center><h1>Registration Form</h1></center>
     <form action="Formulario.html" method="GET">
-
         <fieldset>
-            <legend>Personal</legend>
-            <div>
-            <label for="nombre">Fist name:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Jhon" required>
-            <label for="apellido ">Last name:</label>
-            <input type="text" name="apellido" id="apellido"placeholder="Smith" required>
-            <label for="Bdy">Birthday:</label>
-            <input type="date" name="Bdy" id="Bdy" required>
-            </div>
-            <label for="animal">Favorite animal:</label>
-            <input type="text" name="animal" id="animal" placeholder="Tiger">
-        </fieldset>
+            <legend>Registration Form</legend>
+            <fieldset>
+                <legend>Personal</legend>
+                <div>
+                <label for="nombre">Fist name:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Jhon" required>
+                <label for="apellido ">Last name:</label>
+                <input type="text" name="apellido" id="apellido"placeholder="Smith" required>
+                <label for="Bdy">Birthday:</label>
+                <input type="date" name="Bdy" id="Bdy" required>
+                </div>
+                <label for="animal">Favorite animal:</label>
+                <input type="text" name="animal" id="animal" placeholder="Tiger">
+            </fieldset>
 
-        <fieldset>
-            <legend>Account </legend>
-            <label for="email">E-mail:</label>
-            <input type="text" name="email" id="edge" placeholder="Jhon12@hotmail.com" required>
-            <label for="pass">Password:</label>
-            <input type="password" name="pass" id="pass" title="Above than 4 characters"  required pattern=".{4,}">
-            <label for="VP">Verify Password:</label>
-            <input type="password" name="VP" id="VP" title="Above than 4 characters"  required pattern=".{4,}">
-        </fieldset>
+            <fieldset>
+                <legend>Account </legend>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="edge" placeholder="Jhon12@hotmail.com" required>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass" title="Above than 4 characters"  required pattern=".{4,}">
+                <label for="VP">Verify Password:</label>
+                <input type="password" name="VP" id="VP" title="Above than 4 characters"  required pattern=".{4,}">
+            </fieldset>
 
 
-        <fieldset>
-            <legend>Contact</legend>
-            <div>
-            <label for="Adre">Address:</label>
-            <input type="text" name="Adre" id="Adre" placeholder="Whashington av. #14">
-            <label for="City">City:</label>
-            <input type="text" name="City" id="center" placeholder="Seattle">
-            <label for="Country">Country:</label>
-            <input type="text" name="Country" id="Country" required>
-            </div>
-            <div>
-            <label for="tel">Telephone number:</label>
-            <input type="tel" name="tel" id="tel" placeholder="2234-2323" required pattern="[0-9]{4}-[0-9]{4}">
-            </div>
-        </fieldset>
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                <label for="Adre">Address:</label>
+                <input type="text" name="Adre" id="Adre" placeholder="Whashington av. #14">
+                <label for="City">City:</label>
+                <input type="text" name="City" id="center" placeholder="Seattle">
+                <label for="Country">Country:</label>
+                <input type="text" name="Country" id="Country" required>
+                </div>
+                <div>
+                <label for="tel">Telephone number:</label>
+                <input type="tel" name="tel" id="tel" placeholder="2234-2323" required pattern="[0-9]{4}-[0-9]{4}">
+                </div>
+            </fieldset>
         <input type="submit"value="Send">
-
+    </fieldset>
     </form>
 </body>
 </html>
